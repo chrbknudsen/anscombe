@@ -1,0 +1,27 @@
+---
+title: "Anscombe"
+author: "Christian Knudsen"
+date: "5 dec 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Anscombe's quartet
+
+A classical exercise. So I should also do it.
+
+```{r cars}
+summary(anscombe)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
